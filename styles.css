@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@600&family=Manrope:wght@400;500;700&display=swap');
+
+* {
+    padding: 0% 1%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 80%;
+    margin-left: 0%;
+}
+
+header {
+    font-family: 'Halant', serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.1vw solid #155EEF;
+    border-radius: 0.5em;
+    margin-top: 0.5%;
+}
+
+nav {
+    width: 30%;
+}
+
+a {
+    text-decoration: none;
+    margin:0% 8%;
+    color: #041330;
+}
+
+.nav_btn {
+   border: 0.1vw solid #155eef;
+   border-radius: 0.5em;
+   padding: 0.2%;
+   color: #155EEF;
+}
+
+.hero_section {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.1vw solid #155eef;
+    border-radius: 0.5em;
+    margin-top: 2%;   
+}
+
+.herosection-text p {
+    font-family: 'Manrope', sans-serif;
+    width: 65%;
+    line-height: 180%;
+    
+}
+
+.herosection-text {
+    width: 80%;
+    padding-left: 1%;
+}
+
+.heropic img {
+    padding: 2%;
+}
+
+h3, h1 {
+    font-family: 'Halant', serif;
+    font-weight: 600; 
+}
+h1 {
+    color: #155EEF;
+    margin-bottom: 2%;
+}
+
+.herosection-btn {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    padding: 2% 3%;
+    border-radius: 0.5em;
+    margin-top: 5%;
+    background-color: #155EEF;
+    border: none;
+    color: white;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.about_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.1vw solid #155eef;
+    border-radius: 0.5em;
+    margin-top: 2%;   
+}
+.aboutpic {
+    margin: 2%;
+}
+
+.aboutpic img {
+    padding: 1%;
+    box-sizing: border-box;
+    border-width: 0.1vw 0 0.1vw 0.1vw;
+    border-style: solid;
+    border-color: #155EEF;
+    
+}
+
+.aboutsection-text {
+    width: 80%;
+    padding: 1%;
+
+}
+
+.aboutsection-text p {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    line-height: 180%;
+    width: 66%;
+    margin-left: 25%;
+}
+
+.about_h1 {
+    margin-left: 25%;
+    color: #041330;
+    margin-bottom: 2%;
+}
+
+.footer_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.1vw solid #155eef;
+    border-radius: 0.5em;
+    margin-top: 2%;
+
+}
+
+.copyright {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    width: 20%;
+}
+
+.social_icons {
+    width: 20%;
+}
+
+
