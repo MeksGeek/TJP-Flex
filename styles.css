@@ -45,7 +45,7 @@ a {
 }
 
 .hero_section {
-    
+    background-color: #F9FBFF;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,6 +58,7 @@ a {
     font-family: 'Manrope', sans-serif;
     width: 65%;
     line-height: 180%;
+    color: #2E3A53;
     
 }
 
@@ -123,6 +124,7 @@ h1 {
     font-family: 'Manrope', sans-serif;
     font-weight: 400;
     line-height: 180%;
+    color: #2E3A53;
     width: 66%;
     margin-left: 25%;
 }
@@ -131,6 +133,44 @@ h1 {
     margin-left: 25%;
     color: #041330;
     margin-bottom: 2%;
+}
+
+.project_section {
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.1vw solid #155eef;
+    border-radius: 0.5em;
+    margin-top: 2%;  
+    
+}
+.project_h1 {
+    margin-left: 0;
+    color: #041330;
+    margin-bottom: 2%;
+}
+.projectsection-text {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    line-height: 180%;
+    margin-left: 2.5%;
+    padding: 3% 1.5%;
+    width: 45%;
+    background-color: #F9FBFF;
+    color: #2E3A53;
+    position: absolute;
+    top: 6%;
+}
+.projectpic img {
+    padding: 1%;
+    box-sizing: border-box;
+    margin-top: 11%;
+    margin-left: 38%;
+    
+}
+
+li {
+    margin-left: 2%;
 }
 
 .footer_section {
