@@ -27,8 +27,12 @@ header {
     margin-top: 0.5%;
 }
 
+.hamburger {
+    display: none;
+}
+
 nav {
-    width: 30%;
+    width: 45%;
 }
 
 a {
@@ -40,7 +44,7 @@ a {
 .nav_btn {
    border: 0.1vw solid #155eef;
    border-radius: 0.5em;
-   padding: 0.2%;
+   padding: 0.3%;
    color: #155EEF;
 }
 
@@ -63,8 +67,12 @@ a {
 }
 
 .herosection-text {
-    width: 80%;
+    width: 75%;
     padding-left: 1%;
+}
+
+.heropic {
+    width: 75%;
 }
 
 .heropic img {
@@ -102,6 +110,7 @@ h1 {
     margin-top: 2%;   
 }
 .aboutpic {
+    width: 75%;
     margin: 2%;
 }
 
@@ -115,7 +124,7 @@ h1 {
 }
 
 .aboutsection-text {
-    width: 80%;
+    width: 75%;
     padding: 1%;
 
 }
@@ -125,7 +134,7 @@ h1 {
     font-weight: 400;
     line-height: 180%;
     color: #2E3A53;
-    width: 66%;
+    width: 65%;
     margin-left: 25%;
 }
 
@@ -161,6 +170,12 @@ h1 {
     position: absolute;
     top: 6%;
 }
+
+.projectpic {
+    width: 90%;
+}
+
+
 .projectpic img {
     padding: 1%;
     box-sizing: border-box;
@@ -193,4 +208,223 @@ li {
     width: 20%;
 }
 
+@media screen and (max-width: 450px) {
 
+    nav {
+    display: none;
+}
+.hamburger {
+    display: block;
+}
+
+.hero_section {
+    flex-direction: column;
+}
+
+.herosection-text img {
+    text-align: center;
+}
+
+.herosection-text p {
+    font-size: 16px;
+    width: 95%;
+    line-height: 150%;
+    text-align: center;  
+}
+
+.herosection-text {
+    width: 100%;
+    padding-left: 1%;
+}
+
+.heropic {
+    width: 100%;
+    margin-top: 3%;
+}
+
+.heropic img {
+    width: 100%;
+    padding: 1%;
+}
+
+h3 {
+    margin-top: 3%;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+.herosection-text a {
+    margin: 0;
+}
+.herosection-btn {
+    width: 95%;
+}
+
+.about_section {
+    flex-direction: column-reverse; 
+    width: 100%;
+}
+.aboutpic {
+    width: 95%;
+    margin: 2%;
+}
+
+.aboutpic img {
+    width: 95%;
+    
+}
+
+.aboutsection-text {
+    width: 100%;
+    padding: 1%;
+
+}
+
+.aboutsection-text p {
+    font-size: 16px;
+    line-height: 150%;
+    width: 95%;
+    margin-left: 1%;
+    text-align: justify;
+}
+
+.about_h1 {
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+
+.footer_section {
+    justify-content: space-around; 
+     flex-wrap: wrap; 
+    
+}
+
+.footer_section .logo { 
+    width: 50%;
+} 
+
+.social_icons {
+    width:40%;
+}
+.copyright {
+    width: 60%;
+    text-align: justify;   
+}
+
+.social_icons a {
+    margin-left: 1px;
+}
+
+}
+
+
+@media screen and (max-width: 850px) {
+
+    nav {
+    display: none;
+}
+.hamburger {
+    display: block;
+}
+
+.hero_section {
+    flex-direction: column;
+}
+
+.herosection-text img {
+    text-align: center;
+}
+
+.herosection-text p {
+    font-size: 18px;
+    width: 95%;
+    line-height: 150%;
+    text-align: center;  
+}
+
+.herosection-text {
+    width: 100%;
+    padding-left: 1%;
+}
+
+.heropic {
+    width: 100%;
+    margin-top: 3%;
+}
+
+.heropic img {
+    width: 100%;
+    padding: 1%;
+}
+
+h3 {
+    margin-top: 3%;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+.herosection-text a {
+    margin: 0;
+}
+.herosection-btn {
+    width: 95%;
+}
+
+.about_section {
+    flex-direction: column-reverse; 
+    width: 100%;
+}
+.aboutpic {
+    width: 95%;
+    margin: 2%;
+}
+
+.aboutpic img {
+    width: 95%;
+    
+}
+
+.aboutsection-text {
+    width: 100%;
+    padding: 1%;
+
+}
+
+.aboutsection-text p {
+    font-size: 18px;
+    line-height: 150%;
+    width: 95%;
+    margin-left: 1%;
+    text-align: justify;
+}
+
+.about_h1 {
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+
+.footer_section {
+    justify-content: space-around; 
+     flex-wrap: wrap; 
+}
+
+.footer_section .logo { 
+    width: 50%;
+} 
+
+.social_icons {
+    width:40%;
+}
+.copyright {
+    width: 45%;
+    font-size: 18px;
+}
+
+
+}
