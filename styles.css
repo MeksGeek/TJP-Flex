@@ -208,7 +208,7 @@ li {
     width: 20%;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 460px) {
 
     nav {
     display: none;
@@ -310,7 +310,8 @@ h1, h3 {
     width:40%;
 }
 .copyright {
-    width: 60%;
+    /* font-size: 14px; */
+    width: 65%;
     text-align: justify;   
 }
 
@@ -321,7 +322,7 @@ h1, h3 {
 }
 
 
-@media screen and (max-width: 850px) {
+@media screen and (min-width: 461px) and (max-width: 850px) {
 
     nav {
     display: none;
@@ -422,7 +423,7 @@ h1, h3 {
     width:40%;
 }
 .copyright {
-    width: 45%;
+    width: 55%;
     font-size: 18px;
 }
 
