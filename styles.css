@@ -5,6 +5,10 @@
     margin: 0%;
     box-sizing: border-box;
 }
+main {
+    padding: 0%;
+    margin: 0%; 
+}
 
 body {
     max-width: 1440px;
@@ -181,7 +185,7 @@ h1 {
     box-sizing: border-box;
     margin-top: 11%;
     margin-left: 38%;
-    
+    width: 70%;  
 }
 
 li {
@@ -201,11 +205,12 @@ li {
 .copyright {
     font-family: 'Manrope', sans-serif;
     font-weight: 500;
-    width: 20%;
+    width: 25%;
 }
 
 .social_icons {
     width: 20%;
+    
 }
 
 @media screen and (max-width: 460px) {
@@ -319,10 +324,21 @@ h1, h3 {
     margin-left: 1px;
 }
 
+.projectpic {
+    display: none;
+}
+
+.projectsection-text {
+    position: static;
+    margin: 1% auto;
+    padding: 1%;
+    width: 100%;
+    font-size: 18px;
+}
 }
 
 
-@media screen and (min-width: 461px) and (max-width: 850px) {
+@media screen and (min-width: 461px) and (max-width: 860px) {
 
     nav {
     display: none;
@@ -416,16 +432,47 @@ h1, h3 {
 }
 
 .footer_section .logo { 
-    width: 50%;
+    width: 45%;
 } 
 
 .social_icons {
-    width:40%;
+    width:45%;
 }
 .copyright {
-    width: 55%;
+    width: 100%;
+    /* font-size: 18px; */
+    text-align: center;
+}
+
+.projectpic {
+    display: none;
+}
+
+.projectsection-text {
+    position: static;
+    margin: 1% auto;
+    padding: 1%;
+    width: 100%;
     font-size: 18px;
 }
 
+}
+
+@media screen and (max-width: 960px){
+    .projectpic {
+    display: none;
+}
+
+.project_h1 {
+    text-align: center;
+}
+.projectsection-text {
+    position: static;
+    margin: 1% auto;
+    padding: 1%;
+    width: 100%;
+    font-size: 18px;
+    justify-content: center;
+}
 
 }
