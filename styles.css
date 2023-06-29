@@ -30,8 +30,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 0.1vw solid #155EEF;
-    border-radius: 0.5em; */
     margin-top: 0.5%;
 }
 
@@ -61,8 +59,6 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 0.1vw solid #155eef;
-    border-radius: 0.5em; */
     margin-top: 2%;   
 }
 
@@ -113,8 +109,6 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 0.1vw solid #155eef;
-    border-radius: 0.5em; */
     margin-top: 2%;   
 }
 .aboutpic {
@@ -156,8 +150,6 @@ h1 {
     position: relative;
     justify-content: space-between;
     align-items: center;
-    /* border: 0.1vw solid #155eef;
-    border-radius: 0.5em; */
     margin-top: 2%;  
     
 }
@@ -200,8 +192,6 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 0.1vw solid #155eef;
-    border-radius: 0.5em;
     margin-top: 2%;
 
 }
