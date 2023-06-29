@@ -90,6 +90,7 @@ h3, h1 {
 h1 {
     color: #155EEF;
     margin-bottom: 2%;
+    font-size: 46px;
 }
 
 .herosection-btn {
@@ -181,7 +182,7 @@ h1 {
     box-sizing: border-box;
     margin-top: 11%;
     margin-left: 38%;
-    width: 70%;  
+    width: 75%;  
 }
 
 li {
@@ -452,7 +453,7 @@ h1, h3 {
 
 }
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 970px){
     .projectpic {
     display: none;
 }
