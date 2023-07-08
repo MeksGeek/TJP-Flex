@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Halant:wght@600&family=Manrope:wght@400;500;700&display=swap');
 
 * {
-    padding: 0% 1%;
+    padding: 0%;
     margin: 0%;
     box-sizing: border-box;
 }
@@ -14,12 +14,17 @@ body {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+    padding: 1% 3%;
 }
 
-.logo img {
-    width: 80%;
-    margin-left: 0%;
+.logo {
+    width: 45%;
 }
+
+/* .logo img {
+    width: 70%;
+    margin-left: 0%;
+} */
 
 header {
     font-family: 'Halant', serif;
@@ -29,6 +34,8 @@ header {
     border: 0.1vw solid #155EEF;
     border-radius: 0.5em;
     margin-top: 0.5%;
+    position: relative;
+    z-index: 3;
 }
 
 .hamburger {
@@ -37,11 +44,34 @@ header {
 
 nav {
     width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav2, .close-menu {
+    display: none;
+}
+
+.nav2 {
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: #F9FBFF;
+    height: 100%;
+    top: 0%;
+    padding-top: 20%;
+    z-index: 2;
+}
+
+.menu {
+    margin-top: 10%;
+    font-weight: 600;
 }
 
 a {
     text-decoration: none;
-    margin:0% 8%;
+    margin:0% 2%;
     color: #041330;
 }
 
@@ -50,6 +80,18 @@ a {
    border-radius: 0.5em;
    padding: 0.3%;
    color: #155EEF;
+}
+
+.bar {
+    margin-right: 5%;
+}
+
+hr {
+    width: 60%;
+    height: 1px;
+    background-color: #030E27;
+    border: 1px;
+    margin: 7% auto;
 }
 
 .hero_section {
@@ -90,6 +132,7 @@ h3, h1 {
 h1 {
     color: #155EEF;
     margin-bottom: 2%;
+    font-size: 34px;
 }
 
 .herosection-btn {
@@ -155,6 +198,7 @@ h1 {
     border: 0.1vw solid #155eef;
     border-radius: 0.5em;
     margin-top: 2%;  
+    /* z-index: 1; */
     
 }
 .project_h1 {
@@ -215,11 +259,35 @@ li {
 
 @media screen and (max-width: 460px) {
 
-    nav {
+nav {
     display: none;
 }
+
 .hamburger {
     display: block;
+    margin-right: 5%;
+
+}
+
+.hamburger.hide {
+    display: none;
+}
+
+.close-menu {
+    display: block;
+    margin-right: 10%;
+}
+
+.close-menu.inactive {
+    display: none;
+}
+
+.close-menu.hide {
+    display: none;
+}
+
+.nav2.visible {
+    display: flex;
 }
 
 .hero_section {
@@ -307,7 +375,11 @@ h1, h3 {
     
 }
 
-.footer_section .logo { 
+.logo_footer img {
+    width: 80%
+}
+
+.footer_section .logo_footer { 
     width: 50%;
 } 
 
@@ -315,7 +387,6 @@ h1, h3 {
     width:40%;
 }
 .copyright {
-    /* font-size: 14px; */
     width: 65%;
     text-align: justify;   
 }
@@ -333,7 +404,7 @@ h1, h3 {
     margin: 1% auto;
     padding: 1%;
     width: 100%;
-    font-size: 18px;
+    font-size: 16px;
 }
 }
 
@@ -345,6 +416,28 @@ h1, h3 {
 }
 .hamburger {
     display: block;
+    margin-right: 5%;
+}
+
+.hamburger.hide {
+    display: none;
+}
+
+.close-menu {
+    display: block;
+    margin-right: 5%;
+}
+
+.close-menu.inactive {
+    display: none;
+}
+
+.close-menu.hide {
+    display: none;
+}
+
+.nav2.visible {
+    display: flex;
 }
 
 .hero_section {
@@ -431,16 +524,16 @@ h1, h3 {
      flex-wrap: wrap; 
 }
 
-.footer_section .logo { 
-    width: 45%;
+.logo_footer img {
+    width: 80%
+}
+
+.footer_section .logo_footer { 
+    width: 40%;
 } 
 
-.social_icons {
-    width:45%;
-}
 .copyright {
     width: 100%;
-    /* font-size: 18px; */
     text-align: center;
 }
 
@@ -458,7 +551,36 @@ h1, h3 {
 
 }
 
-@media screen and (max-width: 960px){
+@media screen and (min-width: 861px) and (max-width: 960px){
+    nav {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+        margin-right: 5%;
+    }
+    
+    .hamburger.hide {
+        display: none;
+    }
+    
+    .close-menu {
+        display: block;
+        margin-right: 5%;
+    }
+    
+    .close-menu.inactive {
+        display: none;
+    }
+    
+    .close-menu.hide {
+        display: none;
+    }
+    
+    .nav2.visible {
+        display: flex;
+    }
+
     .projectpic {
     display: none;
 }
@@ -474,5 +596,6 @@ h1, h3 {
     font-size: 18px;
     justify-content: center;
 }
+
 
 }
